@@ -10,6 +10,8 @@ const db = new Datastore({ filename: pathToData});
 db.loadDatabase();
 
 const app = express()
+const port = process.env.PORT || 3030
+
 
 
 // add logging middleware
